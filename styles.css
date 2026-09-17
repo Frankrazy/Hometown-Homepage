@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    margin: 50px 50px 0 50px;
+}
+
+.Hero-section {
+    background: url('images/Lodwar.jpg');
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    color: white;
+    text-shadow: 0 0 2px black;
+    padding: 30px 0 30px 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-title {
+    font-size: 34px;
+    background-color: #060317;
+    border: 2px solid #060317;
+    border-radius: 6px;
+    display: inline;
+    padding: 2px 1px;
+    margin-bottom: 100px;
+}
+
+.hero-p{
+     font-size: 20px;
+     padding: 11px 200px 50px 200px;
+     background: #3521aa;
+     border: 2px solid #3521aa;
+     display: inline-block;
+     padding: 2px 1px;
+     border-radius: 6px;
+}
+
+.Activities-section {
+    background: #cfe9bb;
+    margin-top: -20px;
+    display: block;
+    padding-bottom: 10px;  
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img{
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+#guide-img{
+    width: 250px;
+    float: left;
+    margin-left: 40px;
+    border-radius: 40px;
+}
+
+.Guide-section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    font-size: 25px;
+    background:#37302f;
+    color: white;
+    Text-shadow: 0 0 2px #e78e8e;
+    padding: 30px 0 30px 0;
+    border-bottom: 20px solid slateblue;
+    border-radius: 0 0 20px 20px;
+}
