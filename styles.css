@@ -1,11 +1,16 @@
+* { box-sizing: border-box; }
+
 body {
     text-align: center;
     margin: 50px 50px 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 
 .Hero-section {
     background: url('images/Lodwar.jpg');
     background-size: cover;
+    background-position: center;
     border-radius: 20px 20px 0 0;
     color: white;
     text-shadow: 0 0 2px black;
@@ -20,19 +25,20 @@ body {
     background-color: #060317;
     border: 2px solid #060317;
     border-radius: 6px;
-    display: inline;
-    padding: 2px 1px;
-    margin-bottom: 100px;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-bottom: 20px;
 }
 
-.hero-p{
-     font-size: 20px;
-     padding: 11px 200px 50px 200px;
-     background: #3521aa;
-     border: 2px solid #3521aa;
-     display: inline-block;
-     padding: 2px 1px;
-     border-radius: 6px;
+.hero-p {
+    max-width: 900px;
+    font-size: 20px;
+    padding: 10px 18px;
+    background: rgba(53, 33, 170, 0.9);
+    border: 2px solid #3521aa;
+    display: inline-block;
+    border-radius: 6px;
+    margin: 0 auto 20px;
 }
 
 .Activities-section {
@@ -45,13 +51,16 @@ body {
     margin-right: auto;
 }
 
-.img{
+.img {
     margin-top: 20px;
-    width: 300px;
+    width: min(300px, 100%);
     border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#guide-img{
+#guide-img {
     width: 250px;
     float: left;
     margin-left: 40px;

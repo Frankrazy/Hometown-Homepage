@@ -6,6 +6,10 @@ A vibrant static travel landing page celebrating Lodwar, Turkana, Kenya. The pro
 
 This homepage is designed as a simple tourism-style landing page for a hometown or destination promotion project. It uses pure HTML and CSS to present a clean and welcoming travel experience without any external frameworks or build tools.
 
+## Live Site
+
+https://hometown-homepage-site-project.netlify.app/
+
 ## Features
 
 - Hero banner with a warm welcome message
